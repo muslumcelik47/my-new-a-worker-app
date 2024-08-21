@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    @apply text-[125%]
+}
+
+body{
+    @apply bg-slate-600 w-1/2 mx-auto
+}
+.error-modal{
+    @apply fixed top-1/4 left-2 flex justify-center mx-auto w-full z-50;
+}
